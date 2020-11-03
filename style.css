@@ -1,0 +1,247 @@
+*
+{
+    padding:0;
+     margin:0;
+     box-sizing:border-box;
+     font-family: themixosf,arial,sans-serif;
+}
+a
+{
+    color: rgb(116,116,116);
+    text-decoration: none;
+}
+#wrapper
+{
+    width:100%;
+}
+#nav1
+{
+    width: 100%;
+    background-color: #006d67;
+}
+#nav1 ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+#nav1 ul a
+{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+}
+#nav1 ul li:hover
+{
+    text-decoration: underline;
+}
+ol
+{
+    display:none;
+}
+#ext:hover ol
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: #00746a;
+    padding: 5px 15px;
+}
+#nav2 a:hover
+{
+    text-decoration: none;
+    color: #00746a;
+}
+#nav2
+{
+    width:  80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav2 ul
+{
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+#mk
+{
+    height: 60%;
+    padding: 5px;
+    background-color: #00746a;
+    color: white;
+    border: 1px solid #00746a;
+    transition: 1s color;
+    transition: 1s background-color;
+    font-size: 1.4rem;
+}
+#mk:hover
+{
+    background-color: white;
+    color: #00746a;
+}
+#wrapper3
+{
+    width: 100%;
+}
+#nav3 a:hover
+{
+    text-decoration: none;
+    color: #00746a;
+}
+#nav3
+{
+    width:  80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+#nav3>ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 80%;
+}
+#nav3>ul ul
+{
+    display: none;
+}
+#li2:hover>ul
+{
+    display: block;
+    position: absolute;
+    list-style-type: none;
+    z-index: 30;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}
+#li3
+{
+    position: relative;
+}
+#li3:hover ul
+{
+    left: 100%;
+    width: 200%;
+    top: 0px;
+    list-style-type: none;
+    display: block;
+    position: absolute;
+    z-index: 31;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.glyphicon
+{
+    padding: 8px 15px;
+    height: 60%;
+    background-color: #00746a;
+    color: white;
+    border: 1px solid #00746a;
+    transition: 1s color;
+    transition: 1s background-color;
+    font-size: 1.4rem;
+}
+.glyphicon:hover
+{
+    background-color: white;
+    color: rgb(0,109,104);
+}
+#slider
+{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#pictures img
+{
+    width: 100%;
+}
+#pictures
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    animation: 20s tsec infinite;
+}
+@keyframes tsec
+{
+    0%
+    {
+        left: 0;
+    }
+    15%
+    {
+        left: 0;
+    }
+    30%
+    {
+        left: -100%;
+    }
+    45%
+    {
+        left: -100%;
+    }
+    60%
+    {
+        left: -200%;
+    }
+    75%
+    {
+        left: -200%;
+    }
+    100%
+    {
+        left: 0;
+    }
+}
+#icons
+{
+    width: 75%;
+    margin: auto;
+}
+h1
+{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #00746a;
+}
+#icons ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#icons ul li
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#icons a
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #00746a;
+    font-size: 2rem;
+}
+#icons a:hover
+{
+    text-decoration: none;
+}
